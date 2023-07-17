@@ -20,7 +20,6 @@ struct NeumorphicShape<S: Shape>: View {
         ZStack {
             if isPressed {
                 shape
-//                    .fill(backgroundColor)
                     .stroke(LinearGradient(colors: [darkShadowColor.opacity(0.4), lightShadowColor.opacity(0.4)], startPoint: .topLeading, endPoint: .bottomLeading), lineWidth: 4)
                     .overlay(
                             shape
