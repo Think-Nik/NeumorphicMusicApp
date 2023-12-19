@@ -21,6 +21,46 @@ extension Button {
     }
 }
 
+struct NeumorphicButtonView: View {
+    
+    @Binding var isHighlated: Bool
+    var isHighlatedButton: Bool = false
+    var image: Image
+    var padding: CGFloat
+    var backgroundColor: Color = Color("BackgorundColor")
+    var lightShadowColor: Color = Color("LightShadow")
+    var darkShadowColor: Color = Color("DarkShadow")
+    var action: () -> Void
+    
+    var body: some View {
+        GeometryReader { geometry in
+            Button {
+                action()
+                if isHighlatedButton {
+                    isHighlated.toggle()
+                }
+            } label: {
+                image
+                    .resizable()
+                    .frame(width: geometry.size.width / 3, height: geometry.size.height / 3)
+            }
+            .addNeumorphicEffect(shape: Circle(),
+                                 backgroundColor: backgroundColor,
+                                 lightShadowColor: lightShadowColor,
+                                 darkShadowColor: darkShadowColor,
+                                 isHighlighted: isHighlated,
+                                 padding: padding)
+            .frame(width: geometry.size.width, height: geometry.size.height)
+//                .onLongPressGesture {
+//
+//                } onPressingChanged: { _ in
+//                    action()
+//                    isPressed.toggle()
+//                }
+        }
+    }
+}
+
 
 public struct NeumorphicButtonStyle<S: Shape>: ButtonStyle {
     
