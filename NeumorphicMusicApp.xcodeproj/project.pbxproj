@@ -14,9 +14,19 @@
 		170C69282A581E5B0056DA8A /* NeumorphicShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170C69272A581E5B0056DA8A /* NeumorphicShape.swift */; };
 		170C692A2A5823690056DA8A /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170C69292A5823690056DA8A /* Color.xcassets */; };
 		17BA8F092A5BD95D00F8E437 /* NeumorphicButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA8F082A5BD95D00F8E437 /* NeumorphicButtonView.swift */; };
-		288ED4DB2B30709D00E070E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288ED4DA2B30709D00E070E7 /* ContentView.swift */; };
+		2825851A2B32C00B003F2AC4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282585192B32C00B003F2AC4 /* SideMenuView.swift */; };
+		2825851C2B32C035003F2AC4 /* SideMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825851B2B32C035003F2AC4 /* SideMenus.swift */; };
 		288ED4DD2B316F4300E070E7 /* TabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288ED4DC2B316F4300E070E7 /* TabItems.swift */; };
 		28B9524A2B31934D0012C76B /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B952492B31934D0012C76B /* LibraryView.swift */; };
+		28C952782B3AB00700E5248A /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C952772B3AB00700E5248A /* AudioManager.swift */; };
+		28C952822B3AC05C00E5248A /* SongDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C952812B3AC05C00E5248A /* SongDetails.swift */; };
+		28C952842B3AC7DB00E5248A /* TimeInterval+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C952832B3AC7DB00E5248A /* TimeInterval+Extensions.swift */; };
+		28C9528C2B3AF62300E5248A /* AudioPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9528B2B3AF62300E5248A /* AudioPlayerViewModel.swift */; };
+		28C9528E2B3B0CB400E5248A /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9528D2B3B0CB400E5248A /* Image+Extensions.swift */; };
+		28C952902B3C032900E5248A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C9528F2B3C032900E5248A /* String+Extensions.swift */; };
+		28C952942B3C49A800E5248A /* Prologue & subtitle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28C952932B3C49A800E5248A /* Prologue & subtitle.mp3 */; };
+		28C952962B3C4B4C00E5248A /* Makafushigi Adventure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28C952952B3C4B4C00E5248A /* Makafushigi Adventure.mp3 */; };
+		28C952982B3C4B6500E5248A /* Cha-la head-cha-la.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28C952972B3C4B6500E5248A /* Cha-la head-cha-la.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +38,19 @@
 		170C69272A581E5B0056DA8A /* NeumorphicShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeumorphicShape.swift; sourceTree = "<group>"; };
 		170C69292A5823690056DA8A /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		17BA8F082A5BD95D00F8E437 /* NeumorphicButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonView.swift; sourceTree = "<group>"; };
-		288ED4DA2B30709D00E070E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		282585192B32C00B003F2AC4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		2825851B2B32C035003F2AC4 /* SideMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenus.swift; sourceTree = "<group>"; };
 		288ED4DC2B316F4300E070E7 /* TabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItems.swift; sourceTree = "<group>"; };
 		28B952492B31934D0012C76B /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		28C952772B3AB00700E5248A /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		28C952812B3AC05C00E5248A /* SongDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetails.swift; sourceTree = "<group>"; };
+		28C952832B3AC7DB00E5248A /* TimeInterval+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extensions.swift"; sourceTree = "<group>"; };
+		28C9528B2B3AF62300E5248A /* AudioPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewModel.swift; sourceTree = "<group>"; };
+		28C9528D2B3B0CB400E5248A /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		28C9528F2B3C032900E5248A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		28C952932B3C49A800E5248A /* Prologue & subtitle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Prologue & subtitle.mp3"; sourceTree = "<group>"; };
+		28C952952B3C4B4C00E5248A /* Makafushigi Adventure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Makafushigi Adventure.mp3"; sourceTree = "<group>"; };
+		28C952972B3C4B6500E5248A /* Cha-la head-cha-la.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cha-la head-cha-la.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +83,15 @@
 		170C69182A581CD30056DA8A /* NeumorphicMusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				28B9524D2B31ABDE0012C76B /* Constants */,
+				28C9528A2B3AF5FB00E5248A /* Extensions */,
+				28C952852B3AEF9900E5248A /* Manager */,
+				28C9527D2B3AC00400E5248A /* Model */,
+				28C952792B3ABF7A00E5248A /* ViewModels */,
 				28B9524B2B31AB950012C76B /* Views */,
+				28C952762B3AAF4000E5248A /* Resources */,
+				28B9524D2B31ABDE0012C76B /* Constants */,
 				170C69192A581CD30056DA8A /* NeumorphicMusicAppApp.swift */,
-				170C691D2A581CD50056DA8A /* Assets.xcassets */,
 				170C691F2A581CD50056DA8A /* Preview Content */,
-				170C69292A5823690056DA8A /* Color.xcassets */,
 			);
 			path = NeumorphicMusicApp;
 			sourceTree = "<group>";
@@ -86,7 +109,6 @@
 			children = (
 				28B9524C2B31ABB70012C76B /* Utility */,
 				170C691B2A581CD30056DA8A /* PlayerView.swift */,
-				288ED4DA2B30709D00E070E7 /* ContentView.swift */,
 				28B952492B31934D0012C76B /* LibraryView.swift */,
 			);
 			path = Views;
@@ -97,6 +119,7 @@
 			children = (
 				170C69272A581E5B0056DA8A /* NeumorphicShape.swift */,
 				17BA8F082A5BD95D00F8E437 /* NeumorphicButtonView.swift */,
+				282585192B32C00B003F2AC4 /* SideMenuView.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -105,8 +128,63 @@
 			isa = PBXGroup;
 			children = (
 				288ED4DC2B316F4300E070E7 /* TabItems.swift */,
+				2825851B2B32C035003F2AC4 /* SideMenus.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		28C952762B3AAF4000E5248A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28C952992B3D446D00E5248A /* MusicFiles */,
+				170C691D2A581CD50056DA8A /* Assets.xcassets */,
+				170C69292A5823690056DA8A /* Color.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28C952792B3ABF7A00E5248A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				28C9528B2B3AF62300E5248A /* AudioPlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		28C9527D2B3AC00400E5248A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28C952812B3AC05C00E5248A /* SongDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28C952852B3AEF9900E5248A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				28C952772B3AB00700E5248A /* AudioManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		28C9528A2B3AF5FB00E5248A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28C952832B3AC7DB00E5248A /* TimeInterval+Extensions.swift */,
+				28C9528D2B3B0CB400E5248A /* Image+Extensions.swift */,
+				28C9528F2B3C032900E5248A /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		28C952992B3D446D00E5248A /* MusicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				28C952952B3C4B4C00E5248A /* Makafushigi Adventure.mp3 */,
+				28C952972B3C4B6500E5248A /* Cha-la head-cha-la.mp3 */,
+				28C952932B3C49A800E5248A /* Prologue & subtitle.mp3 */,
+			);
+			path = MusicFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				170C69212A581CD50056DA8A /* Preview Assets.xcassets in Resources */,
+				28C952962B3C4B4C00E5248A /* Makafushigi Adventure.mp3 in Resources */,
 				170C691E2A581CD50056DA8A /* Assets.xcassets in Resources */,
+				28C952942B3C49A800E5248A /* Prologue & subtitle.mp3 in Resources */,
+				28C952982B3C4B6500E5248A /* Cha-la head-cha-la.mp3 in Resources */,
 				170C692A2A5823690056DA8A /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,11 +262,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B9524A2B31934D0012C76B /* LibraryView.swift in Sources */,
+				28C952842B3AC7DB00E5248A /* TimeInterval+Extensions.swift in Sources */,
+				28C9528C2B3AF62300E5248A /* AudioPlayerViewModel.swift in Sources */,
+				28C952822B3AC05C00E5248A /* SongDetails.swift in Sources */,
+				28C952902B3C032900E5248A /* String+Extensions.swift in Sources */,
 				170C691C2A581CD30056DA8A /* PlayerView.swift in Sources */,
-				288ED4DB2B30709D00E070E7 /* ContentView.swift in Sources */,
+				28C9528E2B3B0CB400E5248A /* Image+Extensions.swift in Sources */,
 				170C691A2A581CD30056DA8A /* NeumorphicMusicAppApp.swift in Sources */,
+				2825851C2B32C035003F2AC4 /* SideMenus.swift in Sources */,
 				170C69282A581E5B0056DA8A /* NeumorphicShape.swift in Sources */,
+				2825851A2B32C00B003F2AC4 /* SideMenuView.swift in Sources */,
 				288ED4DD2B316F4300E070E7 /* TabItems.swift in Sources */,
+				28C952782B3AB00700E5248A /* AudioManager.swift in Sources */,
 				17BA8F092A5BD95D00F8E437 /* NeumorphicButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

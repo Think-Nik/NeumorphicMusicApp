@@ -21,11 +21,12 @@ extension Button {
     }
 }
 
-struct NeumorphicButtonView: View {
+struct NeumorphicButtonView<S: Shape, V: View>: View {
     
-    @Binding var isHighlated: Bool
-    var isHighlatedButton: Bool = false
-    var image: Image
+    var shape: S
+    var view: V
+    @Binding var isHighlited: Bool
+    var isHighlitedButton: Bool = false
     var padding: CGFloat
     var backgroundColor: Color = Color("BackgorundColor")
     var lightShadowColor: Color = Color("LightShadow")
@@ -36,19 +37,20 @@ struct NeumorphicButtonView: View {
         GeometryReader { geometry in
             Button {
                 action()
-                if isHighlatedButton {
-                    isHighlated.toggle()
+                if isHighlitedButton {
+                    isHighlited.toggle()
                 }
             } label: {
-                image
-                    .resizable()
-                    .frame(width: geometry.size.width / 3, height: geometry.size.height / 3)
+                view
+//                image
+//                    .resizable()
+//                    .frame(width: geometry.size.width / 3, height: geometry.size.height / 3)
             }
-            .addNeumorphicEffect(shape: Circle(),
+            .addNeumorphicEffect(shape: shape,
                                  backgroundColor: backgroundColor,
                                  lightShadowColor: lightShadowColor,
                                  darkShadowColor: darkShadowColor,
-                                 isHighlighted: isHighlated,
+                                 isHighlighted: isHighlited,
                                  padding: padding)
             .frame(width: geometry.size.width, height: geometry.size.height)
 //                .onLongPressGesture {
